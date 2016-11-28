@@ -1,5 +1,5 @@
 # A modification of Michael Kennedy's original script for scraping episodes
-# This version is aimed at the rss episodes link (all 80 podcasts)
+# This version is aimed at the rss episodes link (86 episodes at time of writing)
 # All I changed is the url in line 11
 # Runs in Python 3 | Needs requests package | mp3s are 4.4GB in total
 
