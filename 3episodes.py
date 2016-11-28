@@ -1,9 +1,13 @@
+# This is the original (unedited) version, written by Michael Kennedy (Talk Python To Me)
+# Use this to download 3 episodes from the pythonbytes link
+# Runs in Python 3 | Needs requests package  
+
 import requests
 import sys
 from xml.etree import ElementTree
 
 def main():
-    rss_url = 'https://pythonbytes.fm/episodes/rss'
+    rss_url = 'https://pythonbytes.fm/episodes/rss' # Edit this to change target
 
     resp = requests.get(rss_url)
     if resp.status_code != 200:
